@@ -1,0 +1,36 @@
+{
+  "name": "needle-string",
+  "version": "0.0.0",
+  "description": "Finds occurrences of a string in a string: 'a needle in a haystack'",
+  "license": "MIT",
+  "repository": "radiovisual/needle-string",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "find",
+    "occurance",
+    "string",
+    "str",
+    "needle",
+    "haystack",
+    "search",
+    "lookup",
+    "look"
+  ],
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
