@@ -1,7 +1,7 @@
 {
   "name": "needle-string",
-  "version": "0.0.1",
-  "description": "Finds occurrences of a string in a string: 'a needle in a haystack'",
+  "version": "0.0.2",
+  "description": "Count occurrences of a string in a string. *needles in a haystack*",
   "license": "MIT",
   "repository": "radiovisual/needle-string",
   "author": {
@@ -24,6 +24,9 @@
     "string",
     "str",
     "needle",
+    "needles",
+    "count",
+    "counting",
     "haystack",
     "search",
     "lookup",
