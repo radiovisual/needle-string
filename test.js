@@ -24,3 +24,7 @@ test('finds needles in a haystack', t => {
 test('returns a number', t => {
 	t.is(typeof fn('yo', 'yo'), 'number');
 });
+
+test('returns 0 when appropriate', t => {
+	t.is(fn('foo', 'bar'), 0);
+});

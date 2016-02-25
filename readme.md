@@ -1,6 +1,6 @@
 # needle-string
 
-> Count occurrences of a string in a string: *needles in a haystack*
+> Count occurrences of a string in a string: __needles in a haystack__
 
 [![Build Status](https://travis-ci.org/radiovisual/needle-string.svg?branch=master)](https://travis-ci.org/radiovisual/needle-string)
 
@@ -10,7 +10,6 @@
 $ npm install --save needle-string
 ```
 
-
 ## Usage
 
 ```js
@@ -19,7 +18,6 @@ const needles = require('needle-string');
 needles('magical unicorns are magic', 'magic');
 //=> 2
 ```
-
 
 ## API
 

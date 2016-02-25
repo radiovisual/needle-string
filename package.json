@@ -1,7 +1,7 @@
 {
   "name": "needle-string",
-  "version": "0.0.2",
-  "description": "Count occurrences of a string in a string. *needles in a haystack*",
+  "version": "0.0.3",
+  "description": "Count occurrences of a string in a string. * needles in a haystack *",
   "license": "MIT",
   "repository": "radiovisual/needle-string",
   "author": {
@@ -24,13 +24,15 @@
     "string",
     "str",
     "needle",
-    "needles",
-    "count",
-    "counting",
     "haystack",
     "search",
     "lookup",
-    "look"
+    "look",
+    "count",
+    "occurances",
+    "number",
+    "amount",
+    "sum"
   ],
   "devDependencies": {
     "ava": "^0.8.0",
