@@ -1,6 +1,6 @@
 # needle-string
 
-> Finds occurrences of a string in a string: *a needle in a haystack*
+> Count occurrences of a string in a string: *needles in a haystack*
 
 [![Build Status](https://travis-ci.org/radiovisual/needle-string.svg?branch=master)](https://travis-ci.org/radiovisual/needle-string)
 
