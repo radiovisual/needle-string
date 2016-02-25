@@ -41,7 +41,7 @@ The string you want to search.
 
 ## Credit
 
-This module contains code inspired by [this post](http://stackoverflow.com/a/7924240/3960969) on Stack Overflow. I wanted a highly-performant string lookup, so after I saw [these benchmarks](http://jsperf.com/count-string-occurrence-in-string/25), I turned it into a node module.  
+This module contains code inspired by [this answer](http://stackoverflow.com/a/7924240/3960969) on Stack Overflow. I wanted a highly-performant string lookup, so after I saw [these benchmarks](http://jsperf.com/count-string-occurrence-in-string/25), I turned it into a node module.  
 
 ## License
 
