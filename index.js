@@ -4,18 +4,5 @@ module.exports = function (haystack, needle) {
 		throw new TypeError('needle-string expects string arguments');
 	}
 
-	var num = 0;
-	var pos = 0;
-	var len = needle.length;
-
-	while (num > -1) {
-		pos = haystack.indexOf(needle, pos);
-		if (pos > -1) {
-			num++;
-			pos += len;
-		} else {
-			break;
-		}
-	}
-	return num;
+	return haystack.split(needle).length - 1;
 };
