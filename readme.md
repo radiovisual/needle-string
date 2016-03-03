@@ -1,6 +1,6 @@
 # needle-string
 
-> Count occurrences of a string in a string: __needles in a haystack__
+> Count case-sensitive occurrences of a string in a string: __needles in a haystack__
 
 [![Build Status](https://travis-ci.org/radiovisual/needle-string.svg?branch=master)](https://travis-ci.org/radiovisual/needle-string)
 
@@ -23,23 +23,19 @@ needles('magical unicorns are magic', 'magic');
 
 ### needleString(haystack, needle)
 
-Returns the number of strings ('needles') in a 'haystack' of text.
+Returns the number of case-sensitive strings ('needles') in a string ('haystack') of text.
 
 #### haystack
 
 Type: `string`  
 
-The string you want to search for needle strings.
+The string of text you want to search.
 
 #### needle
 
 Type: `string`
 
-The string you want to search.
-
-## Credit
-
-This module contains code inspired by [this answer](http://stackoverflow.com/a/7924240/3960969) on Stack Overflow. I wanted a highly-performant string lookup, so after I saw [these benchmarks](http://jsperf.com/count-string-occurrence-in-string/25), I turned it into a node module.  
+The string you want to count the occurrences of.
 
 ## License
 

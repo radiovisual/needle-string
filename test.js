@@ -28,3 +28,7 @@ test('returns a number', t => {
 test('returns 0 when appropriate', t => {
 	t.is(fn('foo', 'bar'), 0);
 });
+
+test('is case sensitive', t => {
+	t.is(fn('foo', 'FOO'), 0);
+});
