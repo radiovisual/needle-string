@@ -1,7 +1,7 @@
 {
   "name": "needle-string",
   "version": "0.0.4",
-  "description": "Count case-sensitive occurrences of a string in a string. * needles in a haystack *",
+  "description": "Count case-sensitive occurrences of a string in a string: needles in a haystack",
   "license": "MIT",
   "repository": "radiovisual/needle-string",
   "author": {
