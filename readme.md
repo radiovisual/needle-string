@@ -1,6 +1,6 @@
 # needle-string
 
-> Count case-sensitive occurrences of a string in a string: __needles in a haystack__
+> Count case-sensitive occurrences of a string in a string (like needles in a haystack)
 
 [![Build Status](https://travis-ci.org/radiovisual/needle-string.svg?branch=master)](https://travis-ci.org/radiovisual/needle-string)
 
